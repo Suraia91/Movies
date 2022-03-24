@@ -12,7 +12,7 @@
 :heavy_check_mark: Clean Architecture
 
 ### Screens
-[!MovieList](/app/src/main/res/drawable/mainscreen.png)
+![MovieList](/app/src/main/res/drawable/mainscreen.png)
 
 
 
