@@ -5,14 +5,20 @@
 ### Tecnologias utilizadas:
 
 :heavy_check_mark: Kotlin
+
 :heavy_check_mark: Coil
+
 :heavy_check_mark: Live data
+
 :heavy_check_mark: MVVM Pattern
+
 :heavy_check_mark: Retrofit
+
 :heavy_check_mark: Clean Architecture
 
 ### Screens
-![MovieList](/app/src/main/res/drawable/mainscreen.png)
+![MovieList](/app/src/main/res/drawable/mainscreen.png) ![Detail](/app/src/main/res/drawable/detail.png)
+
 
 
 

@@ -8,15 +8,16 @@ import ao.com.dio.movieslist.domain.Movie
 import coil.load
 import kotlinx.android.synthetic.main.movie_items.view.*
 
-class MovieAdapter(private val movieList: List<Movie>) : RecyclerView.Adapter<MovieViewHolder>() {
+class MovieAdapter(private val movieList: List<Movie>,private val  listener: ClickListenerMovieList) : RecyclerView.Adapter<MovieViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.movie_items, parent, false)
-        return MovieViewHolder(view)
+        return MovieViewHolder(view,listener)
     }
 
     override fun getItemCount(): Int = movieList.size
 
     override fun onBindViewHolder(holder: MovieViewHolder, position: Int) {
+
         holder.itemView.apply {
             movieTitle.text = movieList[position].titulo
             iv_movie.load(movieList[position].imagem) {
@@ -24,5 +25,10 @@ class MovieAdapter(private val movieList: List<Movie>) : RecyclerView.Adapter<Mo
                 fallback(R.drawable.ic_image)
             }
         }
+
+        holder.itemView.setOnClickListener {
+            listener.setOnClickItemMovie(movieList[position])
+        }
     }
+
 }
