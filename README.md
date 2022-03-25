@@ -1,5 +1,5 @@
-# Movie List
-### Um desafio criado  DIO Bootcamp para colocar em pratica nossos conhecimentos sobre MVVM e Clean Architecture
+# Movie List DIO Bootcamp
+### Um desafio criado para colocar em pratica nossos conhecimentos sobre MVVM e Clean Architecture
 ### E como desafio proposto, criar uma tela de detalhes
 
 ### Tecnologias utilizadas:
