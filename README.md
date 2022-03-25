@@ -1,6 +1,6 @@
 # Movie List
-## Um desafio criado  DIO Bootcamp para colocar em pratica nossos conhecimentos sobre MVVM e Clean Architecture
-## E como desafio proposto, criar uma tela de detalhes
+### Um desafio criado  DIO Bootcamp para colocar em pratica nossos conhecimentos sobre MVVM e Clean Architecture
+### E como desafio proposto, criar uma tela de detalhes
 
 ### Tecnologias utilizadas:
 
@@ -17,7 +17,7 @@
 :heavy_check_mark: Clean Architecture
 
 ### Screens
-![MovieList](/app/src/main/res/drawable/mainscreen.png) ![Detail](/app/src/main/res/drawable/detail.png)
+![MovieList](/app/src/main/res/drawable/mainscreen.png)![Detail](/app/src/main/res/drawable/detail.png)
 
 
 
